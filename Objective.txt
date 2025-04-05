@@ -1,0 +1,35 @@
+The goal of our project is to create a device that helps track the behavior and health of local wildlife, enabling researchers to better understand both human impact on nature and wildlife’s impact on the environment.
+Our project is named after Rosie, a former stray cat — a reminder that stray animals, while often overlooked, can significantly disrupt local ecosystems. With our device, conservationists can monitor stray cats in neighborhoods to study their behavior, assess their stress levels, and gather essential data to reduce their environmental impact — or even help find them new homes.
+Beyond strays, our device can also be used to track wild animals like deer, foxes, rabbits, or geese. It records movement, frequented locations, and biometric data such as heart rate and activity levels. This information helps document the effects of climate change and urban development on animal behavior, contributing to smarter conservation and land-use decisions.
+
+
+
+Tracks wildlife behavior, health, and movement to study human impact, reduce harm from stray animals, and support smarter, data-driven conservation efforts.
+
+
+
+
+
+## Inspiration
+Our project is named after Rosie, a former stray cat — a reminder that stray animals, while often overlooked, can significantly disrupt local ecosystems. With our device, conservationists can monitor stray cats in neighborhoods to study their behavior, assess their stress levels, and gather essential data to reduce their environmental impact — or even help find them new homes.
+Beyond strays, our device can also be used to track wild animals like deer, foxes, rabbits, or geese. It records movement, frequented locations, and biometric data such as heart rate and activity levels. This information helps document the effects of climate change and urban development on animal behavior, contributing to smarter conservation and land-use decisions
+
+## What it does
+The goal of our project is to create a device that helps track the behavior and health of local wildlife, enabling researchers to better understand both human impact on nature and wildlife’s impact on the environment.
+
+## How we built it
+We used a microcontroller (ESP32/Arduino) connected to several sensors, including a GY-521 (gyroscope and accelerometer), a temperature sensor, a pulse sensor (heartbeat monitor), and a NEO-6M GPS module. The microcontroller collects real-time data on the animal's location, movement, stress level, and general health.
+This data is transmitted to researchers, scientists, and wildlife conservationists, where it can be analyzed using AI tools and displayed on a centralized, web-based dashboard. This enables a deeper understanding of animal behavior and the environmental factors affecting their well-being.
+
+## Challenges we ran into
+We encountered difficulties getting the ESP32 to reliably communicate with multiple sensors while also maintaining a stable Wi-Fi connection for sending data to the web platform. Additionally, we faced challenges setting up a WordPress-based website hosted through Oracle Cloud, especially in configuring live data display and integrating with the backend.
+## Accomplishments that we're proud of
+We successfully built a working circuit with all sensors—pulse, motion, temperature, and GPS—integrated and communicating with the ESP32. We also assembled everything into a compact prototype casing, making it portable and field-ready. Despite technical roadblocks, we pushed through and created a solid foundation for real-world wildlife tracking and research applications.
+
+## What we learned
+We learned the basics of front-end development and how to design user-friendly interfaces for displaying real-time sensor data. We also gained hands-on experience with the intricacies of building and managing large-scale IoT networks, including sensor integration, data transmission, and cloud-based data visualization.
+
+## What's next for Rosie Wild Life Tracker
+Our next steps are to improve the communication between the microcontroller and the web platform to ensure stable, real-time data transmission. We also plan to integrate AI tools for automatic analysis of the collected data, providing insights into animal behavior and environmental impact. Finally, we aim to fully deploy this system by publishing the processed data to a live, user-friendly website accessible to researchers and conservationists.
+
+
