@@ -40,7 +40,22 @@ void setup() {
 }
 
 void loop() {
-  // --- Heart Rate ---
+  
+  //delay(500);
+
+  while (gpsSerial.available())
+  {
+    int data = gpsSerial.read();
+    if (gps.encode(data))
+    {
+      lattitude = (gps.location.lat());
+      longitude = (gps.location.lng());
+      Serial.print ("lattitude: ");
+      Serial.println (lattitude,6);
+      Serial.print ("longitude: ");
+      Serial.println (longitude,6);
+    }
+    // --- Heart Rate ---
   if (pulseSensor.sawStartOfBeat()) {
     BPM = pulseSensor.getBeatsPerMinute();
   }
@@ -82,20 +97,6 @@ void loop() {
   Serial.print(ay); Serial.print(",");
   Serial.println(az);
 
-  delay(500);
-
-  if (gpsSerial.available())
-  {
-    int data = gpsSerial.read();
-    if (gps.encode(data))
-    {
-      lattitude = (gps.location.lat());
-      longitude = (gps.location.lng());
-      Serial.print ("lattitude: ");
-      Serial.println (lattitude,6);
-      Serial.print ("longitude: ");
-      Serial.println (longitude,6);
-    }
   }
 }
 
