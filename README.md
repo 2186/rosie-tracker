@@ -16,15 +16,15 @@ The tracker is designed to confortablty sit inside of a 100mm x 70mm box that ca
 ![image](https://github.com/user-attachments/assets/7eaf9fdd-d269-460c-bda9-65b4d7fed045)
 
 
-Goal - 
+## Goal
 The goal of our project was to make a wildlife tracker that could be non invasively attacked to an animal that sends researchers data about it location, movement, stress , and health. The data from the device will be sent to a data base using a wireless communication protocol such as wifi or lora to a cloud data base (oracle cloud) where it can be feed to an AI for analyis or directly analysed by researchers on a webpage. 
 
-Accopmplishements - 
+## Accopmplishements - 
 We were able to to complete the hardware portion of the project and get a working gps tracker, heartbeat sensor, temperature sensor, accelerometer, and gyro. We were also able to design and 3d print a case for the electronics that can be mounted to an animal. Along with coming up with a plan for how we can analyse and transfer the raw data to researchers in an usser friendly and efficient manner.
 
 ![image](https://github.com/user-attachments/assets/c62aaa47-6fa6-4108-989c-7ac4f6f7edcd)
 
-Future Development - 
+## Future Development 
 During the hackathon we attempted but were not to sucessfully implement a wordpress website that was hosted on Oracle cloud that would contain the raw data recieved through the tracker. We would have also like to experment with trying to create an Ai model that can read and reconize patterns in the animals behavior such as locations most frequented and stress levels over time. 
 
 
