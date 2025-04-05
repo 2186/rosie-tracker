@@ -2,8 +2,17 @@
 #include <Wire.h>
 #include <MPU6050_light.h>
 
+#include <SoftwareSerial.h>
+#include <TinyGPS++.h>
+
+
+SoftwareSerial gpsSerial(10,11);
+TinyGPSPlus gps;
+float lattitude,longitude;
+
+
 // Pulse Sensor setup
-const int PULSE_INPUT = 15;
+const int PULSE_INPUT = 12;
 PulseSensorPlayground pulseSensor;
 
 // MPU6050 setup
@@ -22,6 +31,8 @@ void setup() {
   pulseSensor.analogInput(PULSE_INPUT);
   pulseSensor.setThreshold(550); // Adjust if needed
   pulseSensor.begin();
+
+  gpsSerial.begin(9600);
 
   // Setup MPU6050
   mpu.begin();
@@ -72,6 +83,20 @@ void loop() {
   Serial.println(az);
 
   delay(500);
+
+  if (gpsSerial.available())
+  {
+    int data = gpsSerial.read();
+    if (gps.encode(data))
+    {
+      lattitude = (gps.location.lat());
+      longitude = (gps.location.lng());
+      Serial.print ("lattitude: ");
+      Serial.println (lattitude,6);
+      Serial.print ("longitude: ");
+      Serial.println (longitude,6);
+    }
+  }
 }
 
 
