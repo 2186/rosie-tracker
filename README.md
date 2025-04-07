@@ -20,9 +20,17 @@ The tracker is designed to confortablty sit inside of a 100mm x 70mm box that ca
 The goal of our project was to make a wildlife tracker that could be non invasively attacked to an animal that sends researchers data about it location, movement, stress , and health. The data from the device will be sent to a data base using a wireless communication protocol such as wifi or lora to a cloud data base (oracle cloud) where it can be feed to an AI for analyis or directly analysed by researchers on a webpage. 
 
 ## Accopmplishements - 
-We were able to to complete the hardware portion of the project and get a working gps tracker, heartbeat sensor, temperature sensor, accelerometer, and gyro. We were also able to design and 3d print a case for the electronics that can be mounted to an animal. Along with coming up with a plan for how we can analyse and transfer the raw data to researchers in an usser friendly and efficient manner.
+We’re excited to share that Rosie Wildlife Tracker won 3rd Place at Hackfax 2025 under the theme "A Better World"!
 
-![image](https://github.com/user-attachments/assets/c62aaa47-6fa6-4108-989c-7ac4f6f7edcd)
+Our team successfully demonstrated a working prototype that combines:
+- Real-time GPS tracking
+- Heartbeat monitoring for stress detection
+- Motion sensing using accelerometer and gyroscope
+- A 3D-printed, animal-mountable case
+- A centralized system for wireless data transmission and visualization via Oracle Cloud
+
+🌱 This recognition validates our mission to build smarter, low-cost tools for wildlife conservation. We’re grateful for the opportunity to present, learn, and collaborate — and we're excited to continue developing Rosie into a deployable field-ready system.
+![image](https://github.com/user-attachments/assets/a17464b2-e618-4d05-837e-99fe4a906af3)
 
 ## Future Development 
 During the hackathon we attempted but were not to sucessfully implement a wordpress website that was hosted on Oracle cloud that would contain the raw data recieved through the tracker. We would have also like to experment with trying to create an Ai model that can read and reconize patterns in the animals behavior such as locations most frequented and stress levels over time. 
