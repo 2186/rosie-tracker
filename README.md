@@ -11,7 +11,7 @@ Tracking wildlife effectively is essential for conservation efforts, ecological 
 
 <img width="121" alt="small" src="https://github.com/user-attachments/assets/bab0332a-2ed7-4c02-9643-1638bb3119a0" />
 
-The tracker is designed to confortablty sit inside of a 100mm x 70mm box that can be noninvasivelty attacked to an animal. 
+The tracker is designed to confortablty sit inside of a 100mm x 70mm box that can be noninvasivelty attached to an animal. 
 
 ![image](https://github.com/user-attachments/assets/7eaf9fdd-d269-460c-bda9-65b4d7fed045)
 
