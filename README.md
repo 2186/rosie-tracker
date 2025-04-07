@@ -17,7 +17,7 @@ The tracker is designed to confortablty sit inside of a 100mm x 70mm box that ca
 
 
 ## Goal
-The goal of our project was to make a wildlife tracker that could be non invasively attacked to an animal that sends researchers data about it location, movement, stress , and health. The data from the device will be sent to a data base using a wireless communication protocol such as wifi or lora to a cloud data base (oracle cloud) where it can be feed to an AI for analyis or directly analysed by researchers on a webpage. 
+The goal of our project was to make a wildlife tracker that could be non invasively attached to an animal that sends researchers data about it location, movement, stress , and health. The data from the device will be sent to a data base using a wireless communication protocol such as wifi or lora to a cloud data base (oracle cloud) where it can be feed to an AI for analyis or directly analysed by researchers on a webpage. 
 
 ## Accopmplishements - 
 We’re excited to share that Rosie Wildlife Tracker won 3rd Place at the GMU Hackfax 2025 under the theme "A Better World"!
