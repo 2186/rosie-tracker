@@ -5,14 +5,13 @@
 We built a compact, non-invasive wildlife tracking device using an ESP32 microcontroller, paired with a GY-521 accelerometer/gyroscope, pulse sensor, and GPS module. The system monitors an animal’s movement, location, and heart rate, providing insights into its behavior, stress, and health in real time.
 
 Data is collected by the ESP32 and transmitted via Wi-Fi or LoRa to a cloud platform for analysis. Researchers can use this information to identify patterns like rest, activity, or high-stress zones. The device is lightweight and power-efficient—ideal for small to medium-sized animals—with deep-sleep modes to extend field deployment.
-
-<img width="121" alt="small" src="https://github.com/user-attachments/assets/bab0332a-2ed7-4c02-9643-1638bb3119a0" />
+![image](https://github.com/user-attachments/assets/7eaf9fdd-d269-460c-bda9-65b4d7fed045)
 
 This setup can be expanded with solar charging, long-range communication, and AI-based behavior recognition, making it a powerful tool for modern wildlife conservation and ecological research.
 
 The tracker is designed to confortablty sit inside of a 100mm x 70mm box that can be noninvasivelty attached to an animal. 
 
-![image](https://github.com/user-attachments/assets/7eaf9fdd-d269-460c-bda9-65b4d7fed045)
+<img width="121" alt="small" src="https://github.com/user-attachments/assets/bab0332a-2ed7-4c02-9643-1638bb3119a0" />
 ![image](https://github.com/user-attachments/assets/86ce6d36-7184-417e-b65b-6852fb91504b)
 
 ## Goal
