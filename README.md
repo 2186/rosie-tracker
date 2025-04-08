@@ -1,13 +1,14 @@
 # rosie-tracker
 
-## Introduction
+## What we do
 
 ![image](https://github.com/user-attachments/assets/86ce6d36-7184-417e-b65b-6852fb91504b)
 
+We built a compact, non-invasive wildlife tracking device using an ESP32 microcontroller, paired with a GY-521 accelerometer/gyroscope, pulse sensor, and GPS module. The system monitors an animal’s movement, location, and heart rate, providing insights into its behavior, stress, and health in real time.
 
+Data is collected by the ESP32 and transmitted via Wi-Fi or LoRa to a cloud platform for analysis. Researchers can use this information to identify patterns like rest, activity, or high-stress zones. The device is lightweight and power-efficient—ideal for small to medium-sized animals—with deep-sleep modes to extend field deployment.
 
-
-Tracking wildlife effectively is essential for conservation efforts, ecological research, and behavioral studies. By using an ESP32 microcontroller in combination with a GY-521 (MPU6050) accelerometer and gyroscope, a pulse heartbeat sensor, and a GPS module, it's possible to build a compact and efficient system that monitors both movement and physiological responses in animals. The ESP32 acts as the central unit, collecting data from each sensor. The GY-521 module captures 3-axis motion and orientation, which helps identify behavior patterns like walking, running, or resting. Meanwhile, the pulse sensor monitors the animal’s heart rate, offering insights into stress levels, excitement, or periods of calm. The GPS module records the animal’s real-time location with timestamps, allowing researchers to map movement patterns over time. This combination of data provides a detailed view of the animal’s physical activity and emotional state in relation to its environment. The system can log data transmit it via Wi-Fi or Lora. Its lightweight design makes it suitable for small to medium-sized animals without impeding their natural behavior. Power efficiency is a key feature, with the ESP32 supporting deep-sleep modes to extend battery life in field deployments. This setup can be further enhanced with solar charging, long-range communication options like LoRa, and machine learning algorithms to classify behaviors in real time. Overall, the integration of movement, physiological, and location data provides a powerful tool for modern wildlife monitoring.
+This setup can be expanded with solar charging, long-range communication, and AI-based behavior recognition, making it a powerful tool for modern wildlife conservation and ecological research.
 
 <img width="121" alt="small" src="https://github.com/user-attachments/assets/bab0332a-2ed7-4c02-9643-1638bb3119a0" />
 
@@ -17,7 +18,11 @@ The tracker is designed to confortablty sit inside of a 100mm x 70mm box that ca
 
 
 ## Goal
-The goal of our project was to make a wildlife tracker that could be non invasively attached to an animal that sends researchers data about it location, movement, stress , and health. The data from the device will be sent to a data base using a wireless communication protocol such as wifi or lora to a cloud data base (oracle cloud) where it can be feed to an AI for analyis or directly analysed by researchers on a webpage. 
+The goal of our project was to develop a non-invasive wildlife tracking device that can be safely attached to animals to monitor their location, movement, stress, and overall health in real time.
+
+The data collected by the device is transmitted wirelessly—using protocols like Wi-Fi or LoRa—to a cloud-based database hosted on Oracle Cloud. From there, the information can either be analyzed directly by researchers through an intuitive web dashboard or processed using AI models to identify behavioral patterns, health trends, and environmental responses over time.
+
+Our aim is to equip conservationists, scientists, and wildlife organizations with a smart, scalable tool that supports better decision-making, enhances ecological research, and ultimately contributes to a more sustainable and biodiverse world.
 
 ## Accopmplishements - 
 We’re excited to share that Rosie Wildlife Tracker won 3rd Place at the GMU Hackfax 2025 under the theme "A Better World"!
@@ -37,6 +42,10 @@ Our team successfully demonstrated a working prototype that combines:
 
 
 ## Future Development 
-During the hackathon we attempted but were not to sucessfully implement a wordpress website that was hosted on Oracle cloud that would contain the raw data recieved through the tracker. We would have also like to experment with trying to create an Ai model that can read and reconize patterns in the animals behavior such as locations most frequented and stress levels over time. 
+During the hackathon, we began building a WordPress-based website hosted on Oracle Cloud to display real-time and historical data collected from the tracker. While we successfully deployed the backend infrastructure, full integration with live sensor data is still in progress.
+
+Looking ahead, we aim to enhance the platform with an AI-powered analytics system. This would allow us to recognize behavioral patterns in animals—such as frequently visited locations, daily activity cycles, and changes in stress levels over time. By leveraging machine learning, our goal is to provide conservationists and researchers with deeper, automated insights into wildlife health and environmental interaction.
+
+These future upgrades would make Rosie Wildlife Tracker a truly intelligent tool for wildlife monitoring and ecological research.
 
 
