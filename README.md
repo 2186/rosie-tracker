@@ -10,11 +10,11 @@ Data is collected by the ESP32 and transmitted via Wi-Fi or LoRa to a cloud plat
 
 This setup can be expanded with solar charging, long-range communication, and AI-based behavior recognition, making it a powerful tool for modern wildlife conservation and ecological research.
 
-The tracker is designed to confortablty sit inside of a 100mm x 70mm box that can be noninvasivelty attached to an animal. 
-
 <img width="121" alt="small" src="https://github.com/user-attachments/assets/bab0332a-2ed7-4c02-9643-1638bb3119a0" />
 
 ![image](https://github.com/user-attachments/assets/86ce6d36-7184-417e-b65b-6852fb91504b)
+
+The tracker is designed to confortablty sit inside of a 100mm x 70mm box that can be noninvasivelty attached to an animal. 
 
 ## Goal
 The goal of our project was to develop a non-invasive wildlife tracking device that can be safely attached to animals to monitor their location, movement, stress, and overall health in real time.
