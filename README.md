@@ -26,6 +26,8 @@ Our aim is to equip conservationists, scientists, and wildlife organizations wit
 ## Accopmplishements - 
 We’re excited to share that Rosie Wildlife Tracker won 3rd Place at the GMU Hackfax 2025 under the theme "A Better World"!
 
+![image](https://github.com/user-attachments/assets/a17464b2-e618-4d05-837e-99fe4a906af3)
+
 Check out the link to the Hackathon: https://hackfax-gmu-cs-club-2025.devpost.com/project-gallery 
 
 Our team successfully demonstrated a working prototype that combines:
@@ -36,9 +38,6 @@ Our team successfully demonstrated a working prototype that combines:
 - A centralized system for wireless data transmission and visualization via Oracle Cloud
 
 🌱 This recognition validates our mission to build smarter, low-cost tools for wildlife conservation. We’re grateful for the opportunity to present, learn, and collaborate — and we're excited to continue developing Rosie into a deployable field-ready system.
-
-![image](https://github.com/user-attachments/assets/a17464b2-e618-4d05-837e-99fe4a906af3)
-
 
 ## Future Development 
 During the hackathon, we began building a WordPress-based website hosted on Oracle Cloud to display real-time and historical data collected from the tracker. While we successfully deployed the backend infrastructure, full integration with live sensor data is still in progress.
